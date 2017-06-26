@@ -1,0 +1,92 @@
+@import '../setup/colors';
+
+// Contact Me =======================
+#contact {
+	background-size: 300px auto;
+	padding: 30px 0;
+	h2.sectionTitle {
+		color: white;
+		margin: 50px 0 70px;
+	}
+	p.info {
+		color: white;
+		font-size: 2.4rem;
+		text-align: center;
+		font-weight: 400;
+		margin: 0;
+	}
+}
+
+.formWrap {
+	margin: 0 auto;
+	max-width: 700px;
+	padding: 0 10px;
+	h2.sectionTitle {
+	}
+	li {
+		list-style-type: none;
+	}
+	p {
+		color: white;
+	}
+}
+
+.blue {
+	color: $blue;
+}
+
+#skills,#about span:after {
+	color: $blue;
+}
+
+input {
+  line-height: normal;
+  width: 100%;
+  border: 0;
+  background: rgba(255,255,255, 0.4);
+	border: 1px solid rgba(0,0,0,0);
+  border-radius: 5px;
+  padding: 0 10px;
+  color: white;
+  outline: 0;
+  &:focus {
+  	border: 1px solid #cacaca;
+  }
+}
+
+input[type=submit] {
+	color: #fff;
+	background: none;
+	border: 1px solid white;
+	width: 200px;
+	transition: background .4s;
+	&:hover {
+		background: white;
+		color: $blue;
+	}
+}
+
+textarea {
+	outline: 0;
+	line-height: 20px;
+	padding: 10px;
+	color: white;
+	border: 0;
+	border-radius: 5px;
+	width: 100%;
+	background: rgba(255,255,255, 0.4);
+	height: 180px;
+	&:focus {
+		border: 1px solid #cacaca;
+	}
+}
+
+div.wpcf7-mail-sent-ok {
+	border: 2px solid red !important;
+	color: #fff;
+}
+
+div.wpcf7-validation-errors {
+	border: 2px solid #ff6a00 !important;
+	color: #fff;
+}

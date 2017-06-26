@@ -1,0 +1,50 @@
+@import '../setup/colors';
+
+// HEADER ======================
+header {
+	background: url(images/headBG1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	min-height: 500px;
+	@media (max-width:1000px) {
+		background-position: 20%;
+	}
+}
+
+.headerText {
+	width: 100%;
+	color: $blue;
+	display: flex;
+}
+
+.headerBlurb {
+	padding: 0 20px 0;
+	margin: 100px 0;
+	text-align: right;
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	h4 {
+		margin: 20px 0 0;
+	}
+	@media (max-width: 900px) {
+		h3 {
+			font-size: 4rem;
+		}
+	}
+}
+
+.mobileSubTitle {
+	display: none;
+}
+
+.container {
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+	align-items: center;
+	color: #fff;
+	max-width: 1100px;
+}

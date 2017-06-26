@@ -1,0 +1,123 @@
+
+@import 'colors';
+
+h1,h2,h3,h4,h5 {
+	margin: 0;
+}
+
+i.devicons {
+	font-size: 14rem;
+}
+
+p {
+	font-weight: 100;
+	font-size: 2rem;
+}
+
+h1.siteTitle a {
+	padding: 0 0 0 20px;
+	color: $blue;
+	width: 25%;
+	text-transform: lowercase;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: 'Catamaran', sans-serif;
+	color: $darkgrey;
+	font-weight: 100;
+	font-size: 1.4rem;
+	// width: 25%;
+}
+
+h2.sectionTitle {
+	text-align: center;
+	width: 100%;
+	font-size: 4rem;
+	margin: 50px 0;
+	span {
+		position: relative;
+		display: inline-block;
+		&:after {
+			content: '';
+			position: absolute;
+			left: 50%;
+			bottom: 0;
+			margin: 0 0 0 -35px;
+			border-bottom: 2px solid white;
+			width:70px;
+			#skills &, #about & {
+				border-bottom: 2px solid $blue;
+			}
+		}
+	}
+}
+
+h3 {
+	color: $grey2;
+	font-size: 4.4rem;
+	font-weight: 100;
+	line-height: 1.2;
+	margin: 0 0 14px;
+	span {
+		font-weight: 500;
+		color: $blue;
+	}
+}
+
+h3.blue {
+	color: $blue;
+	&:after {
+	  content: '\A';  
+	  width: 60px;
+	  height: 2px;
+	  border-radius: 5px;
+	  border-bottom: 3px solid $blue;
+	  position: absolute;
+	}
+}
+
+h3.pieceTitle {
+	font-size: 2rem;
+	font-weight: 500;
+	margin: 15px 0 0;
+	color: white;
+}
+
+h4 {
+	color: $grey2;
+	font-weight: 400;
+	span {
+		color: $blue;
+	}
+}
+
+h5 {
+	color: $darkgrey;
+	font-size: 6rem;
+	text-align: center;
+}
+
+/* Links */
+a {
+	color: white;
+	text-decoration: none;
+	&:hover {
+		color: white;
+	}
+}
+
+/* paragraphs */
+p {
+	line-height: 1.5;
+}
+
+/*blockquotes*/
+blockquote {
+	background: #F7F7F7;
+	margin: 0;
+	padding: 20px;
+	p {
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,28 @@
+@import '../setup/colors';
+
+html {
+	font-size: 62.5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+blockquote {
+	background: none;
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+body {
+	font-size: 1.8rem;
+	color: $darkgrey;
+	background: $blue;
+	font-family: Catamaran;
+	-webkit-font-smoothing: antialiased;
+}
+
+.tileBG {
+	background: url(../andrewdyke.me/images/bluePentagons.jpg) repeat;
+	background-size: 300px auto;
+}

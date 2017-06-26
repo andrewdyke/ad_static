@@ -1,0 +1,25 @@
+@import '../setup/colors';
+
+// About Me ==========================
+#about {
+	background: $grey;
+	padding: 10px 0 80px;
+	h2 {
+		text-align: center;
+		width: 100%;
+		font-size: 4rem;
+	}
+}
+
+.aboutWrap {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+section#about a {
+  color: #2189f8;
+  &:hover {
+  	text-decoration: underline;
+  }
+}

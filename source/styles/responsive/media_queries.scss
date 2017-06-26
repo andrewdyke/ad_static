@@ -1,0 +1,164 @@
+
+@import '../setup/colors';
+
+// MEDIA QUERIES ===========================
+@media (max-width: 810px) {
+	.headerBlurb {
+		margin: 60px 0;
+		h3 {
+			font-size: 3.4rem;
+		}
+		h4 {
+			font-size: 2rem;
+		}
+	}
+}
+
+// Tablet
+@media (max-width: 768px) {
+	h1.siteTitle {
+		font-size: 2.5rem;
+	}
+	.toggle {
+		display: block;
+	}
+	.hamburger {
+		display: block;
+	}
+	header{
+		background-position: 20% 0;
+	}
+	nav {
+		background: rgba(255, 255, 255, 0.95);
+		height: 50px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		box-shadow: 0px 0px 25px -20px;
+	}
+	.navWrap ul, ul.menu {
+		width: 0;
+		display: none;
+	}
+	.container {
+		margin: 0 auto;
+	}
+	.cont2 {
+		padding-top: 60px;
+	}
+	#about {
+		padding: 20px 10px 70px;
+	}
+	.aboutWrap {
+		padding : 0 10px;
+	}
+	.pieces {
+		padding: 0 10px;
+	}
+	.portPiece {
+		width: calc(100% - 20px);
+	}
+}
+
+@media (max-width: 690px) {
+	.headerBlurb {
+		display: none;
+	}
+	.mobileSubTitle {
+		display: inline-block;
+		margin: 0 0 0 20px;
+		font-size: 1.6rem;
+		color: $darkgrey;
+		font-weight: 100;
+		text-align: left;
+		width: 100%;
+	}
+}
+
+@media (max-width: 640px) {
+	.pieces a {
+		width: 50%;
+	}
+	i.devicons {
+	    font-size: 10rem;
+	}
+}
+
+@media (max-width: 540px) {
+	.pieces a {
+		width: 100%;
+	}
+}
+
+// Phablet
+@media (max-width: 414px) {
+	#skills .skillBox .skill {
+		text-align: center;
+		width: 50%;
+		margin: 0;
+	}
+	.blogContent {
+		padding: 20px;
+		width: 100%;
+	}
+	article {
+		padding: 34px;
+	}
+	section.entry-content p {
+		font-size: 16px;
+	}
+	p.pf a {
+		color: #44475d;
+		font-size: 16px;
+	}
+	.sectionTitle.blog {
+		margin: 10px 0;
+	}
+}
+
+// Phone
+@media (max-width: 375px) {
+	.toggle {
+    right: 0;
+	}
+	header {
+		.siteTitle a {
+			letter-spacing: -.3px;
+		}
+	}
+	.titleBox {
+		flex-direction: column;
+		text-align: left;
+		h2 {
+			width: 50px;
+			padding: 35px 20px;
+		}
+	}
+	.navWrap ul {
+		display: none;
+	}
+	.headerBlurb {
+		display: none;
+	}
+	.aboutWrap {
+		padding: 0 10px;
+	}
+	.pieces a {
+    width: 100%;
+	}
+	.portPiece {
+		width: 100%;
+		margin: 10px 0;
+	}
+	#skills .skillBox .skill {
+    width: calc(50% - 0px);
+    margin: 0 auto;
+	}
+	.formWrap {
+		padding: 0px 10px;
+	}
+	#contact h2.sectionTitle {
+    color: #fff;
+    margin: 20px 0 40px;
+	}
+}

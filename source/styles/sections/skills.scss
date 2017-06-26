@@ -1,0 +1,24 @@
+@import '../setup/colors';
+
+// Skills ==========================
+#skills {
+	padding: 20px 0 90px;
+	background: $grey;
+	.skillBox {
+		display: flex;
+		flex-wrap: wrap;
+		.skill {
+			width: calc(25% - 20px);
+			text-align: center;
+			margin: 0 10px;
+			h3 {
+				color: $darkgrey;
+				font-size: 2rem;
+			}
+		}
+	}
+}
+
+#skills i {
+	color: $darkgrey;
+}

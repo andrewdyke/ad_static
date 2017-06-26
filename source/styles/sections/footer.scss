@@ -1,0 +1,50 @@
+@import '../setup/colors';
+
+// Footer ========================
+footer.footer {
+	background: #44475d;
+	padding: 60px 0;
+	font-size: 1.4rem;
+	a {
+		text-align: center;
+	}
+}
+
+.toTopLink {
+	i {
+  	font-size: 4rem;
+  	height: 65px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	border-radius: 50%;
+  	width: 65px;
+  	padding-bottom: 5px;
+  	background: rgba(0,0,0,0.3);
+  	transition: all .4s;
+  	outline: none;
+  	&:hover {
+  		padding-bottom: 15px;
+  		outline: none;
+  	}
+	}
+	 span {
+		font-size: 2rem;
+		color: white;
+	}
+}
+
+.social {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	margin-top: 25px;
+	i {
+		color: rgba(255,255,255,0.6);
+		transition: color .3s;
+		font-size: 3rem;
+		&:hover {
+		color: white;
+		}
+	}
+}

@@ -1,0 +1,25 @@
+/*
+* Theme Name: Andrew's Portfolio
+* Theme URI: http://andrewdyke.me
+* Description: Portfolio of Front End Developer Andrew Dyke
+* Version: 1.0
+* Author: Andrew Dyke
+* Author URI: http://andrewdyke.me
+*/
+
+@import 'setup/fonts';
+@import 'setup/colors';
+@import 'setup/normalize';
+@import 'setup/typography';
+@import 'setup/global';
+
+@import 'sections/navigation';
+@import 'sections/hamburger';
+@import 'sections/header';
+@import 'sections/about';
+@import 'sections/portfolio';
+@import 'sections/skills';
+@import 'sections/contact';
+@import 'sections/footer';
+
+@import 'responsive/media_queries';
