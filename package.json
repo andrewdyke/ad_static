@@ -1,8 +1,8 @@
 {
-  "name": "EnvyBoiler",
+  "name": "ad-static",
   "version": "1.0.0",
   "private": true,
-  "description": "A boiler plate for front-end web development.",
+  "description": "Tools for building my static site.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
