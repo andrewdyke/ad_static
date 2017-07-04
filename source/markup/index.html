@@ -11,7 +11,7 @@
   <meta property="og:site_name" content="Andrew Dyke | Front End Developer">
   <meta property="og:description" content="Professional portfolio of Toronto based Front-End Developer Andrew Dyke. Static web pages, layouts, responsive design, flexbox, RESTful API's, AJAX, JS, HTML, CSS.">
   <meta property="og:image" content="/assets/images/about/andrewdyke-frontenddev.jpg">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="en_CA">
   <meta property="og:url" content="http://www.andrewdyke.me">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image:src" content="/assets/images/about/andrewdyke-frontenddev.jpg">
@@ -19,7 +19,7 @@
   <meta name="twitter:url" content="http://www.andrewdyke.me">
   <meta name="twitter:description" content="Professional portfolio of Toronto based Front-End Developer Andrew Dyke. Static web pages, layouts, responsive design, flexbox, AJAX, JS, HTML, CSS.">
   <meta name="twitter:title" content="Andrew Dyke | Front End Developer">
-  <meta name="description" content="Professional portfolio of Toronto based Front-End Developer Andrew Dyke. Static web pages, layouts, responsive design, flexbox, AJAX, JS, HTML, CSS.">
+  <meta name="description" content="Professional portfolio of Toronto based Front-End Developer Andrew Dyke. Static web pages, layouts, responsive design, flexbox, AJAX, JavaScript, HTML, CSS.">
   <link rel="apple-touch-icon" sizes="57x57" href="images/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="images/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="images/apple-icon-72x72.png">
@@ -45,48 +45,46 @@
 
   <!-- HEADER -->
   <header id="header">
+		<div class="headerInnerWrap">
+	    <!-- Navigation -->
+	    <nav id="mainNav">
 
-    <!-- Navigation -->
-    <nav id="mainNav">
+	      <!-- Mobile Hamburger -->
+	      <button class="toggle">
+	        <span>Toggle Open &amp; Close</span>
+	      </button><!-- /hamburger -->
 
-      <!-- Mobile Hamburger -->
-      <button class="toggle">
-        <span>Toggle Open &amp; Close</span>
-      </button><!-- /hamburger -->
+	      <!-- Sliding Mobile Nav Panel -->
+	      <nav class="nav">
+	        <ul>
+	          <li><a class="hamLink" href="#about">About</a></li>
+	          <li><a class="hamLink" href="#portfolio">Portfolio</a></li>
+	          <li><a class="hamLink" href="#contact">Contact</a></li>
+	        </ul>
+	      </nav>
+	      <!-- /slidingNav -->
 
-      <!-- Sliding Mobile Nav Panel -->
-      <nav class="nav">
-        <ul>
-          <li><a class="hamLink" href="#about">About</a></li>
-          <li><a class="hamLink" href="#portfolio">Portfolio</a></li>
-          <li><a class="hamLink" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <!-- /slidingNav -->
+	      <!-- Desktop Nav Wrap -->
+	      <div class="navWrap">
+	        <!-- Title Box -->
+	        <div class="titleBox">
+	          <h1 class="siteTitle hvr-grow">
+	            <a href="http://www.andrewdyke.me">Andrew Dyke</a>
+	          </h1>
+	        </div><!-- /.titleBox -->
+	        <!-- Menu -->
+	        <ul class="menu">
+	          <li class="menu-item"><a href="#about" class="hvr-underline-from-left">About</a></li>
+	          <li class="menu-item"><a href="#contact" class="hvr-underline-from-left">Contact Me</a></li>
+	          <li class="menu-item"><a href="#portfolio" class="hvr-underline-from-left">Portfolio</a></li>
+	        </ul><!-- .menu -->
+	      </div><!-- /.navWrap -->
 
-      <!-- Desktop Nav Wrap -->
-      <div class="navWrap">
-        <!-- Title Box -->
-        <div class="titleBox">
-          <h1 class="siteTitle hvr-grow">
-            <a href="http://www.andrewdyke.me">Andrew Dyke</a>
-          </h1>
-        </div><!-- /.titleBox -->
-        <!-- Menu -->
-        <ul class="menu">
-          <li class="menu-item"><a href="#about" class="hvr-underline-from-left">About</a></li>
-          <li class="menu-item"><a href="#contact" class="hvr-underline-from-left">Contact Me</a></li>
-          <li class="menu-item"><a href="#portfolio" class="hvr-underline-from-left">Portfolio</a></li>
-        </ul><!-- .menu -->
-      </div><!-- /.navWrap -->
+	    </nav><!-- /.mainNav -->
 
-    </nav><!-- /.mainNav -->
-
-
-    <!-- Header Blurb Content -->
-    <div class="container cont2">
-      <section class="headerText">
-        <a href="https://en.wikipedia.org/wiki/Front-end_web_development"><p class="mobileSubTitle">Front-End Developer</p></a>
+	    <!-- Header Blurb Content -->
+      <section class="container headerText">
+        <a style="margin: 50px auto 0 0;" href="https://en.wikipedia.org/wiki/Front-end_web_development"><p class="mobileSubTitle">Front-End Developer</p></a>
         <div class="headerBlurb">
           <h3>I am a <span>Front-End Developer</span></h3>
           <h3>Based in <span>Toronto</span>.</h3>
@@ -94,8 +92,7 @@
           <br> and would love to build something <span>for you.</span></h4>
         </div><!-- .headerBlurb -->
       </section><!-- .headerText -->
-    </div><!-- /header .container -->
-
+		</div>
   </header><!--/.header-->
 
 
