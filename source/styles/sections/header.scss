@@ -1,44 +1,18 @@
-
 @import '../setup/colors';
 
 // HEADER ======================
 header {
 	width: 100%;
-	background: white;
-	border-top: 3px solid #2189f8;
-	@media (max-width:1000px) {
-		background-position: 20%;
-	}
-}
-
-// .headerInnerWrap:before {
-// 	content: '';
-// 	display: block;
-// 	position: absolute;
-// 	top: 0;
-// 	background: url(images/headBG1.jpg);
-// 	right: 0;
-// 	// backdrop-filter: blur(20px);
-// 	filter: blur(0px);
-// 	border-top: 3px solid #2189f8;
-// 	bottom: 0;
-// 	background-repeat: no-repeat;
-// 	background-size: cover;
-// 	left: 0;
-// }
-
-.headerInnerWrap {
 	background: url(images/headBG1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 0 auto;
-	max-width: 1262px;
+	border-top: 3px solid #2189f8;
 	height: 100vh;
 	min-height: 500px;
 	@media (max-width:1000px) {
 		background-position: 20%;
 	}
-}
+}	
 
 .headerText {
 	width: 100%;

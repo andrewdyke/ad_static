@@ -27,11 +27,11 @@
 </head>
 
 <!-- Body set to display none for fade in on load -->
-<body style="display: none;">
+<body style="position: relative;">
 
   <!-- HEADER -->
   <header id="header">
-		<div class="headerInnerWrap">
+		<!-- <div class="headerInnerWrap"> -->
 	    <!-- Navigation -->
 	    <nav id="mainNav">
 
@@ -79,9 +79,8 @@
         </div><!-- .headerBlurb -->
       </section><!-- .headerText -->
 
-		</div>
+		<!-- </div> -->
   </header><!--/.header-->
-
 
   <div class="main">
     <div class="content">
@@ -252,7 +251,6 @@
     </div><!-- /.content -->
   </div><!-- /.main -->
 
-
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
@@ -270,6 +268,9 @@
       <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>
     </div>
   </footer><!-- /footer -->
+
+	<!-- Abs pos overlay -->
+	<div id="overlay" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: white;"></div>
 
 
   <!-- JavaScripts -->

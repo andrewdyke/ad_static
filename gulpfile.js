@@ -34,7 +34,7 @@
 	})
 
 	// MARKUP
-	gulp.task('markup', function buildHTML() {
+	gulp.task('markup', () => {
 	  return gulp.src('./source/markup/*.html')
 		.pipe(gulp.dest('./build'))
 		.pipe(browserSync.reload({stream:true}))
