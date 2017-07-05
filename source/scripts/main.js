@@ -4,9 +4,10 @@
 let ad = {
 	init() {
 		setTimeout(ad.fadeInPage, 300)
+		// ad.fadeInPage()
 	},
 	fadeInPage() {
-		$('#overlay').fadeOut(1000)
+		$('#overlay').fadeOut(600)
 	},
 	nav: {
 		panel: $('.nav'),
@@ -26,7 +27,7 @@ let ad = {
 
 // Smooth Scroll to hash location on link click
 ad.nav.links.on('click', function(e) {
-  $('html,body').animate({scrollTop: jQuery(this.hash).offset().top}, 1000)
+  $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000)
 })
 
 // Hamburger Toggle Click Open/Close
@@ -43,6 +44,7 @@ ad.nav.navLink.on('click', (e) => {
   ad.nav.close()
 })
 
+// initialize on doc ready
 jQuery(function($) {
 	ad.init()
 })
